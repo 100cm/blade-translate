@@ -1,0 +1,30 @@
+#!/usr/bin/env ruby
+
+require_relative '../lib/blade/translate'
+
+help = <<HELP
+thc: Translate tools in the command line
+  $ thc word
+  $ thc world peace
+  $ thc chinglish
+  $ thc
+  > enter the loop mode, ctrl+c to exit
+HELP
+
+if ARGV.empty?
+  begin
+    loop do
+      print '> '
+      input = gets.chomp
+      # 输入为空时继续循环
+      next if input == ''
+      puts Blade::Translate.new(input).result
+    end
+  rescue Interrupt
+    puts 'bye~'
+  end
+elsif %w{-h --help}.any? { |c| ARGV.include? c }
+  puts help
+else
+  puts Blade::Translate.new(ARGV.join(' ')).result
+end
