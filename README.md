@@ -1,6 +1,6 @@
 # Blade::Translate
 
-Help for Mrs THC translate
+Help  miss teng translate english
 
 ## Installation
 
