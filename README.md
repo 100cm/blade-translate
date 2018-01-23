@@ -20,7 +20,9 @@ Or install it yourself as:
 
 ## Usage
 
-
+```
+bt your_world
+```
 
 ## Development
 
