@@ -20,7 +20,7 @@ Or install it yourself as:
 
 ## Usage
 
-![image](https://github.com/icepoint0/blade-translate/blob/master/thc-translate.png)
+
 
 ## Development
 
