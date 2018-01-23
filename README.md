@@ -1,6 +1,6 @@
 # Blade::Translate
 
-Help for Mrs THC translate
+command line translate 
 
 ## Installation
 

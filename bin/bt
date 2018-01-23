@@ -3,11 +3,11 @@
 require_relative '../lib/blade/translate'
 
 help = <<HELP
-thc: Translate tools in the command line
-  $ thc word
-  $ thc world peace
-  $ thc chinglish
-  $ thc
+bt: Translate tools in the command line
+  $ bt word
+  $ bt world peace
+  $ bt chinglish
+  $ bt
   > enter the loop mode, ctrl+c to exit
 HELP
 

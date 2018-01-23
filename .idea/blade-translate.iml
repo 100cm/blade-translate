@@ -2,11 +2,7 @@
 <module type="RUBY_MODULE" version="4">
   <component name="FacetManager">
     <facet type="gem" name="New Gem">
-      <configuration>
-        <option name="GEM_APP_ROOT_PATH" value="$MODULE_DIR$" />
-        <option name="GEM_APP_TEST_PATH" value="" />
-        <option name="GEM_APP_LIB_PATH" value="$MODULE_DIR$/lib" />
-      </configuration>
+      <configuration />
     </facet>
   </component>
   <component name="NewModuleRootManager">

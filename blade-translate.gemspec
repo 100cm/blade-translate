@@ -9,8 +9,8 @@ Gem::Specification.new do |spec|
   spec.authors       = ["icepoint0"]
   spec.email         = ["351711778@qq.com"]
 
-  spec.summary       = "blade translate for thc"
-  spec.description   = "blade translate for thc"
+  spec.summary       = "blade translate"
+  spec.description   = "blade translate"
   spec.homepage      = "http://thunderjava.com"
   spec.license       = "MIT"
 
