@@ -13,7 +13,7 @@ module Blade
     end
 
     def query_for_hash
-      query_url    = API_URL + URI.escape(@words.gsub(/ /, '+'))
+      query_url    = API_URL + URI.encode_www_form_component(@words.gsub(/ /, '+'))
       result_json  = Net::HTTP.get(URI(query_url))
       @result_hash = JSON.parse(result_json)
     end
